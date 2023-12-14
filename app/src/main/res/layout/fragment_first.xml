@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434242"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".FirstFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="371dp"
+            android:layout_height="96dp"
+            android:text="CONTADOR"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="41dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="118dp"
+            android:layout_height="300dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#FFFCFC"
+            android:textSize="200sp"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="180dp" />
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="63dp"
+            android:layout_margin="2dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.659"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="547dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="125dp"
+                android:layout_height="51dp"
+                android:layout_margin="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="125dp"
+                android:layout_height="51dp"
+                android:layout_margin="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="RESET"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="125dp"
+                android:layout_height="51dp"
+                android:layout_margin="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="-"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="162dp"
+            android:layout_height="31dp"
+            android:text="Eric Quiles Silgado"
+            android:textColor="#5C5757"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="709dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
